@@ -25,7 +25,7 @@ public class login extends AppCompatActivity {
         username = (EditText) findViewById(R.id.login_uname);
 
         final Intent intent;
-        intent = new Intent(this,UserProfile.class);
+        intent = new Intent(this,dashboard.class);
         skip_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

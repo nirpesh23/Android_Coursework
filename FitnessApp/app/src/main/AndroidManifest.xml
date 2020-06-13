@@ -10,7 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UserProfile"></activity>
+        <activity android:name=".dashboard"></activity>
+        <activity android:name=".diet" />
+        <activity android:name=".UserProfile" />
 
         <meta-data
             android:name="com.google.android.backup.api_key"

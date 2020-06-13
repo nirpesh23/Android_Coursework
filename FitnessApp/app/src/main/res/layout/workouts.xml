@@ -35,7 +35,14 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:src="@drawable/ic_person_black_24dp"
+<<<<<<< Updated upstream
         android:layout_margin="10dp"/>
+=======
+        android:layout_margin="10dp"
+        android:backgroundTintMode="add"
+        android:backgroundTint="@color/colorAccent"
+        />
+>>>>>>> Stashed changes
 
     <Space
         android:id="@+id/space"
@@ -78,9 +85,13 @@
 
                 <HorizontalScrollView
                     android:layout_width="match_parent"
+<<<<<<< Updated upstream
                     android:layout_height="wrap_content"
 
                     >
+=======
+                    android:layout_height="wrap_content">
+>>>>>>> Stashed changes
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -126,7 +137,10 @@
                 <HorizontalScrollView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
                     >
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -154,6 +168,7 @@
                 </HorizontalScrollView>
             </LinearLayout>
 
+<<<<<<< Updated upstream
             <LinearLayout
                 android:id="@+id/legs_day"
                 android:layout_width="match_parent"
@@ -253,22 +268,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_below="@+id/back_day"
+=======
+            <LinearLayout
+                android:id="@+id/legs_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/abs_day"
                 android:layout_marginTop="30sp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Arms Day"
+                    android:text="Legs Day"
                     android:textStyle="bold"
                     android:textSize="18sp"
                     android:padding="10dp"/>
 
                 <HorizontalScrollView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-
-                    >
+                    android:layout_height="wrap_content">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -294,6 +313,111 @@
                     </LinearLayout>
                 </HorizontalScrollView>
             </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/back_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/legs_day"
+                android:layout_marginTop="30sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Back Day"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:padding="10dp"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="162dp"
+                            android:layout_height="96dp"
+                            android:padding="10dp"
+                            android:src="@drawable/chest1" />
+
+                        <ImageView
+                            android:layout_width="162dp"
+                            android:layout_height="96dp"
+                            android:padding="10dp"
+                            android:src="@drawable/chest2" />
+
+                        <ImageView
+                            android:layout_width="162dp"
+                            android:layout_height="96dp"
+                            android:padding="10dp"
+                            android:src="@drawable/chest1" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/arms_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+>>>>>>> Stashed changes
+                android:layout_below="@+id/back_day"
+                android:layout_marginTop="30sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Arms Day"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:padding="10dp"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+<<<<<<< Updated upstream
+                    android:layout_height="wrap_content"
+
+                    >
+=======
+                    android:layout_height="wrap_content">
+>>>>>>> Stashed changes
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="162dp"
+                            android:layout_height="96dp"
+                            android:padding="10dp"
+                            android:src="@drawable/chest1" />
+
+                        <ImageView
+                            android:layout_width="162dp"
+                            android:layout_height="96dp"
+                            android:padding="10dp"
+                            android:src="@drawable/chest2" />
+
+                        <ImageView
+                            android:layout_width="162dp"
+                            android:layout_height="96dp"
+                            android:padding="10dp"
+                            android:src="@drawable/chest1" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+<<<<<<< Updated upstream
+=======
+
+            <Space
+                android:layout_below="@+id/arms_day"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"/>
+>>>>>>> Stashed changes
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>
